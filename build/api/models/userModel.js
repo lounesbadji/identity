@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var mongoose = require("mongoose");
 var bcrypt = require("bcrypt");
 var Schema = mongoose.Schema;
@@ -24,7 +24,7 @@ var UserSchema = new Schema({
     },
     created: {
         type: Date,
-        "default": Date.now
+        default: Date.now
     }
 });
 UserSchema.methods.comparePassword = function (password) {
