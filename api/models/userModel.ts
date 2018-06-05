@@ -1,11 +1,11 @@
 import * as mongoose from 'mongoose';
 import * as bcrypt from 'bcrypt';
-var Schema = mongoose.Schema;
+let Schema = mongoose.Schema;
 
 /**
  * User Schema
  */
-var UserSchema = new Schema({
+let UserSchema = new Schema({
   fullName: {
     type: String,
     trim: true,
