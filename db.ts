@@ -1,2 +1,2 @@
 import * as mongoose from 'mongoose';
-mongoose.connect('mongodb://localhost/Tododb', { useMongoClient: true });
+mongoose.connect('mongodb://localhost/identity', { useMongoClient: true });

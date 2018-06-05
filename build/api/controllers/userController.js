@@ -1,5 +1,5 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
+exports.__esModule = true;
 var jwt = require("jsonwebtoken");
 var bcrypt = require("bcrypt");
 var userModel_1 = require("../models/userModel");

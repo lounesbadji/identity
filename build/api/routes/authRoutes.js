@@ -1,5 +1,5 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
+exports.__esModule = true;
 var AuthModule = require("../controllers/userController");
 function auth(app) {
     app.route('/auth/register').post(AuthModule.register);

@@ -2,8 +2,6 @@
   "compilerOptions": {
     "module": "commonjs",
     "sourceMap": true,
-    "outDir": "build",
-    "target": "es5",
-    "lib": ["es5", "es6", "dom"]
+    "outDir": "build"
   }
 }
