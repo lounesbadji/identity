@@ -1,7 +1,7 @@
 {
-  "name": "Prescriber",
-  "version": "1.1.0",
-  "description": "Connected prescription",
+  "name": "Identity",
+  "version": "1.0.0",
+  "description": "Identity server",
   "scripts": {
     "clean": "rm -rf build/",
     "start": "tsc && node build/server.js"
@@ -12,8 +12,10 @@
     "nodemon": "^1.11.0"
   },
   "dependencies": {
+    "@types/node": "^10.1.4",
     "bcrypt": "^1.0.2",
     "body-parser": "^1.15.2",
+    "cors": "^2.8.4",
     "express": "^4.14.0",
     "jsonwebtoken": "^7.3.0",
     "mongoose": "^4.7.2",

@@ -3,7 +3,7 @@ import * as bcrypt from 'bcrypt';
 import {User} from "../models/userModel";
 
 export function register (req, res) {
-  var newUser = new User(req.body);
+  let newUser = new User(req.body);
   newUser.hash_password = bcrypt.hashSync(req.body.password, 10);
   newUser.save((err, user) => {
     if (err) {
